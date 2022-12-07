@@ -1,0 +1,48 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.english {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+  background-color: rgb(228, 228, 228);
+}
+.english__heading {
+  width: 100%;
+  text-align: center;
+}
+.english__main-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.morse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+  background-color: rgb(228, 228, 228);
+}
+.morse__heading {
+  width: 100%;
+  text-align: center;
+}
+.morse__main-box {
+  display: flex;
+  flex-direction: column;
+}
